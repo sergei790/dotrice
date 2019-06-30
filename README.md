@@ -10,14 +10,23 @@ Second need polyba here :
 yay polybar arcolinux-polybar-config-git 
 
 #Sound
+
 sudo pacman -S pulseaudio --noconfirm --needed 
+
 sudo pacman -S pulseaudio-alsa --noconfirm --needed 
+
 sudo pacman -S pavucontrol --noconfirm --needed
+
 sudo pacman -S alsa-utils alsa-plugins alsa-lib alsa-firmware --noconfirm --needed 
+
 sudo pacman -S gstreamer --noconfirm --needed 
+
 sudo pacman -S gst-plugins-good gst-plugins-bad gst-plugins-base gst-plugins-ugly --noconfirm --needed 
+
 sudo pacman -S volumeicon --noconfirm --needed 
+
 sudo pacman -S playerctl --noconfirm --needed
+
 
 #take print screen write i3 config
 # screenshot bindsym Print exec scrot '%Y-%m-%d-%H-%M-%S_$wx$h.png' -e 'mv $f ~/Pictures/Screenshotz/'
